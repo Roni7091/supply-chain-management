@@ -1,0 +1,133 @@
+.URtitile{
+    width: 100%;
+    padding-top: 10px;
+    margin-top: 70px;
+}
+.tableData{
+    border-collapse: collapse;
+    
+}
+.tableDataContainer{
+    width: 100%;
+    overflow: scroll;
+}
+
+.tblcontent{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: rgba(13, 13, 13, 0.435) 0px 10px 36px 0px, rgba(179, 179, 179, 0.56) 0px 0px 0px 1px;
+    background-color: #fdfdfdce;
+}
+
+.tblcontent thead tr {
+    background-color: rgba(44, 43, 43, 0.983);
+    text-align: left;
+    font-weight: bold;
+    }
+
+.tblcontent th{
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    font-family: 'PT Serif', serif;
+    letter-spacing: 1px;
+    border-left: 1px solid rgb(125, 125, 125);
+}
+
+.tblcontent th,
+.tblcontent td {
+    padding: 10px 8px;
+}
+
+.tblcontent  tbody td {
+   border: 1px solid rgb(110, 110, 110);
+   color: #000000;
+   font-size: 10px;
+   font-family: 'Inter', sans-serif;
+}
+
+.tblcontent tbody tr:nth-of-type(even) {
+    background-color: #7d7d7d;
+}
+
+.tblcontent tbody tr:last-of-type{
+    border-bottom: 5px solid #5e5d5d;
+}
+
+.head2{
+    width: 100px;
+}
+.head3{
+    width: 150px;
+}
+
+.head4{
+    width: 50px;
+}
+
+.tab2Body{
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    justify-content:center;
+    padding: 1%;
+}
+
+
+
+
+
+/* .URtitile{
+    width: 100%;
+    padding-top: 10px;
+}
+.tableData{
+    border-collapse: collapse;
+    
+}
+.tableDataContainer{
+    width: 100%;
+    overflow: scroll;
+}
+
+
+.tab2Body{
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    justify-content:center;
+    background-color: rgb(14, 12, 12);
+    padding: 1%;
+}
+
+
+
+.dbThead>tr>th {
+    background-color: rgba(247, 63, 8, 0.712);
+    border: 2px ridge  rgb(60, 49, 87);
+    color: rgb(241, 243, 245);
+    width: 100px;
+}
+
+.fcIcon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+
+
+
+.dbTbody>tr>td {
+    background-color: rgba(188, 250, 230, 0.959);
+    border: 2px solid  rgb(60, 49, 87);
+    color: rgb(30, 99, 177);
+}
+.dbTbody>tr>td:hover {
+    background-color: rgb(10, 90, 182);
+    border: 2px solid  rgb(60, 49, 87);
+    color: rgb(210, 226, 245);
+    cursor: pointer;
+    
+} */

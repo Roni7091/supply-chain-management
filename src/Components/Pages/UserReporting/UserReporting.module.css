@@ -1,0 +1,74 @@
+.userReports{
+    width: 100%;
+    min-height: 100vh;
+   
+  
+
+}
+
+.URtitle{
+    padding-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(29, 49, 228);
+}
+.reports{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 160px 160px 160px;
+    border-radius: 15px;
+    background-image: url(https://img.freepik.com/free-photo/detailed-grunge-background-shades-grey-black_1048-11892.jpg?w=2000);
+    background-size: cover;
+    padding-top: 15px;
+    margin-top: 0px;
+    padding-top: 80px
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
+.report1>p,.report2>p,.report3>p{
+    font-size: small;
+    font-family: 'Josefin Sans', sans-serif;
+    /* font-weight: 100; */
+    text-align: center;
+    padding-left: 50px;
+}
+.toReports,.woReports,.dbRecord{
+    background-color: white;
+    cursor: pointer;
+    }
+.toReports:hover,.woReports:hover,.dbRecord:hover{
+background-color: rgba(16, 89, 184, 0.712);
+background-color: white;
+cursor: pointer;
+}
+
+
+.urtitle{
+    text-transform: uppercase;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 12px 48px;
+    color: #ffffff;
+    background: linear-gradient(to right, #4d4d4d 0, white 10%, #4d4d4d 20%);
+    background-position: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+    animation-fill-mode: forwards;
+    -webkit-text-size-adjust: none;
+    font-weight: 600;
+    font-size: 25px;
+    text-decoration: none;
+    white-space: nowrap;
+  
+    }
+
+    @keyframes shine {
+        0%
+        {  background-position: 0}
+        80%
+         { background-position: 360px}
+        100%
+         { background-position: 360px}
+        }

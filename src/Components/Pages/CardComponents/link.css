@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Dancing+Script&family=Fugaz+One&family=Inter:wght@500&family=Kanit&family=Lora:ital,wght@0,400;1,400;1,500;1,600;1,700&family=Open+Sans:wght@300&family=PT+Serif:ital@1&family=Passion+One&family=Playfair+Display:ital,wght@1,400;1,800&family=Quicksand:wght@300&family=Roboto:ital,wght@0,100;1,100&family=Secular+One&family=Shrikhand&family=Tangerine&family=Titillium+Web:wght@200;300;400;700&family=VT323&family=Varela+Round&family=Wendy+One&display=swap');
+
+
+
+.container-link1{
+    height: 100vh;
+    display: flex;
+    background-size:cover;
+  }
+
+
+.cminputs-v{
+  display: grid;
+  grid-template-columns:200px 200px 200px 1fr;
+  margin-left: 20px;
+  margin-top: 70px;
+}
+
+.cm-btns-v{
+     margin-top: 10px;
+     margin-left: 50px;
+}
+
+
+.cminputs label{
+color: rgba(43, 43, 43, 0.918);
+font-size: 15px;
+margin-left: 10px;
+margin-bottom: 5px;
+
+}
+
+.cminputs input{
+    
+    width: 90%;
+    border-radius: 10px;
+    padding: 2px 10px;
+    font-weight: bold;
+    color: #4d4d4d;
+    }
+
+   
+
+    /* //buttons */
+    .creatbtn1{
+        background-color: rgb(31, 214, 3);
+        color: white;
+        border: none;
+        border-radius: 6px;
+        width: 70px;
+        height: 20px;
+        margin: 5px;
+        font-weight: bold;
+        font-size: 10PX;
+        cursor: pointer;
+        opacity: 70%;
+    }
+
+    .creatbtn1:hover{
+    opacity: 100%;
+    color: rgb(0, 0, 0);
+    
+    }
+
+    .creatbtn2{
+        background-color: rgb(255, 238, 6);
+        color: white;
+        border: none;
+        border-radius: 6px;
+        width: 70px;
+        height: 20px;
+        margin: 5px;
+        font-weight: bold;
+        font-size: 10PX;
+        cursor: pointer;
+        opacity: 70%;
+    }
+
+    .creatbtn2:hover{
+    opacity: 100%;
+    color: rgb(0, 0, 0);
+ 
+    }
+
+    .creatbtn3{
+        background-color: rgb(4, 110, 249);
+        color: white;
+        border: none;
+        border-radius: 6px;
+        width: 70px;
+        height: 20px;
+        margin: 5px;
+        font-weight: bold;
+        font-size: 10PX;
+        cursor: pointer;
+        opacity: 70%;
+    }
+
+    .creatbtn3:hover{
+    opacity: 100%;
+    color: rgb(0, 0, 0);
+    
+    }
+
+
+    .creatbtn4{
+        background-color: rgb(248, 4, 4);
+        color: white;
+        border: none;
+        border-radius: 6px;
+        width: 70px;
+        height: 20px;
+        margin: 5px;
+        font-weight: bold;
+        font-size: 10PX;
+        cursor: pointer;
+        opacity: 70%;
+    }
+
+    .creatbtn4:hover{
+    opacity: 100%;
+    color: rgb(0, 0, 0);
+
+    }
+
+    .creatbtn5{
+       
+        color: rgb(12, 4, 238);
+        border: none;
+        border-radius: 6px;
+      
+        height: 20px;
+        margin: 5px;
+        font-weight: bold;
+        font-size: 10PX;
+        cursor: pointer;
+        opacity: 70%;
+        display: inline-block;
+    }
+
+    .creatbtn5:hover{
+    opacity: 100%;
+    color: rgb(248, 248, 248);
+ 
+    }
+
+
+  .btn-shine {
+  text-transform: uppercase;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  padding: 12px 48px;
+  color: #ee0202;
+  font-weight: 600;
+  font-size: 25px;
+ }
+    
+
+
+
+

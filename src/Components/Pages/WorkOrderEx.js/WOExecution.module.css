@@ -1,0 +1,219 @@
+.woecontainer{
+    width: 100%;
+    min-height: 100vh;
+    max-height: 200vh;
+   
+    background-size: cover;
+    background-repeat: repeat;
+    margin-top: -20px;
+}
+
+.titleCont{
+    width: 100%;
+    height: 40px;
+    background-color: red;
+}
+/* .title{
+    color: blueviolet;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+} */
+
+.huContainer{
+    display: flex;
+    width: 400px;
+    padding-top: 60px;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 30px;
+}
+.huLabel{
+    background-color: rgb(19, 122, 122);
+    width: 150px;
+    height: 25px;
+    margin-top: 2px;
+    color: white;
+   margin-right: 10px;
+    align-items: center;
+    text-align: center;
+   
+
+   
+}
+.lbh{
+    margin-top: -17px;
+    color: white;
+    margin-left: 30px;
+}
+.btnCon{
+    display: inline-block;
+    margin-bottom: -47px;
+    margin-right: 300px;
+    margin-top: 25px;
+}
+
+/* WOE-Form css starts here------- */
+.t1conatiner{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.woeTtitle{
+    color: grey
+}
+.woeForm{
+    display: block;
+    justify-content: center;
+    margin-top: 30px;
+    padding-left: 10px;
+}
+
+.btnClear{
+    width:80px;
+    border-radius:8px;
+    background-color:rgb(196, 25, 25);
+    border:none;
+    font-weight: 600;
+    color:white;
+    margin-left: 10px;
+}
+.btnClear:hover{
+    background-color:red;
+    color:white;
+    border-radius:8px;
+    font-weight: 600;
+}
+.btnppl{
+    width: 140px;
+    border: none;
+    border-radius:4.5px;
+    background-color:green;
+    color:white;
+    margin-left: 10px;
+}
+.btnppl:hover{
+    background-color:rgb(32, 247, 32);
+    color:white;
+    border-radius:8px;
+    font-weight: 600;
+}
+
+.formBody{
+    width: 100%;
+    display: grid;
+    grid-template-rows: 30px 40px;
+    justify-content: left;
+}
+.formLabel1{
+    width: 100%;
+display: grid;
+grid-template-columns:repeat(8,12%);
+column-gap: 10px;
+text-align: left;
+padding-left: 5px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Yanone+Kaffeesatz:wght@300;400&display=swap');
+.woLbl{
+    font-family: 'Arvo', serif;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: small;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: black;
+    text-align: left;
+}
+.formData1{
+width: 100%;
+display: grid;
+grid-template-columns: repeat(8,12%);
+column-gap: 5px;
+}
+.iconInp{
+    width:150px;
+    background-color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    border: 2px ridge rgba(192, 192, 192, 0.267);
+}
+.iconInp2{
+    width: 100px;
+    border: none;
+}
+
+.woefInp{
+    width:150px;
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    border: 2px ridge rgba(192, 192, 192, 0.267);
+}
+.woefInp:hover{
+    color: grey;
+    background-color: rgb(240, 240, 240) ;
+    cursor: pointer;
+    border: 2px ridge rgba(192, 192, 192, 0.267);
+}
+.woefsel{
+    width:150px;
+    height:24px;
+    border-radius: 10px;
+    border: 2px ridge rgba(192, 192, 192, 0.267);
+    font-size: small;
+}
+.woefsel:hover{
+    color: grey;
+    background-color: rgb(240, 240, 240) ;
+    cursor: pointer;
+    border: 2px ridge rgba(192, 192, 192, 0.267);
+}
+
+.formLabel2{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,12%);
+    column-gap: 30px;
+    text-align: left;
+    padding-left: 10px;
+}
+.formData2{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,12%) ;
+    column-gap: 30px;
+    }
+
+
+    .btnshinewoe {
+        text-transform: uppercase;
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        padding: 12px 48px;
+        color: #ffffff;
+        background: linear-gradient(to right, #4d4d4d 0, white 10%, #4d4d4d 20%);
+        background-position: 0;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: shine 3s infinite linear;
+        animation-fill-mode: forwards;
+        -webkit-text-size-adjust: none;
+        font-weight: 600;
+        font-size: 25px;
+        text-decoration: none;
+        white-space: nowrap;
+      
+        }
+    
+        @keyframes shine {
+            0%
+            {  background-position: 0}
+            80%
+             { background-position: 360px}
+            100%
+             { background-position: 360px}
+            }
+          
+          .table{
+          position: absolute;
+          top: 220px;
+          }

@@ -1,0 +1,96 @@
+
+.torContainer{
+    width: 100%;
+    height: fit-content;
+}
+.woForm{
+    display: block;
+    justify-content: center;
+    margin-top: 30px;
+    padding-left: 10px;
+}
+.torFormBody{
+    width: 100%;
+    display: grid;
+    grid-template-rows: 60px 60px;
+    justify-content: left;
+}
+.worFormRow1{
+    width: 100%;
+display: grid;
+grid-template-columns: 200px 200px 200px 200px 200px;
+column-gap: 5px;
+text-align: left;
+padding-left: 10px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300&display=swap');
+.worlabel{
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight:600;
+    color: black;
+    text-align: left;
+}
+.worFormRow2{
+width: 100%;
+display: grid;
+grid-template-columns: 200px 200px 200px 200px 200px;
+column-gap: 5px;
+}
+
+.worinput{
+    width:150px;
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    border: 2px ridge rgba(192, 192, 192, 0.44);
+}
+
+.worselect{
+    width:150px;
+    height:30px;
+    font-family: sans-serif;
+    border-radius: 10px;
+    border: 2px ridge rgba(192, 192, 192, 0.44);
+    font-size: small;
+}
+
+.searchbtn{
+    width: 80px;
+    background-color: rgba(16, 89, 184, 0.712);
+    border-radius: 10px;
+    border-style: solid;
+    border-color: azure;
+    font-size: small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border:2px solid grey;
+}
+.searchbtn:hover{
+    width: 80px;
+    background-color: rgb(16, 89, 184);
+    border-radius: 10px;
+    border-style: solid;
+    border-color: azure;
+    font-size: small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.clearbtn{
+    width: 80px;
+    margin-left: 10px;
+    background-color: rgba(247, 63, 8, 0.712);
+    border-radius: 10px;
+    border-style: solid;
+    border-color: azure;
+    font-size: small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border:2px solid grey;
+}
+.clearbtn:hover{
+    width: 80px;
+    margin-left: 10px;
+    background-color: rgb(247, 64, 8);
+    border-radius: 10px;
+    border-style: solid;
+    border-color: azure;
+    font-size: small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

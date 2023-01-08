@@ -1,0 +1,154 @@
+.TOBody{
+    display: block;
+    justify-content: center;
+    justify-items: center;
+}
+
+.TOtable{
+    display: block;
+    justify-content: center;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.userReports{
+    width: 100%;
+}
+
+.tblcontent{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: rgba(13, 13, 13, 0.435) 0px 10px 36px 0px, rgba(179, 179, 179, 0.56) 0px 0px 0px 1px;
+    background-color: #fdfdfdce;
+}
+
+.tblcontent thead tr {
+    background-color: rgba(44, 43, 43, 0.983);
+    text-align: left;
+    font-weight: bold;
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@600&display=swap');
+.tblcontent th{
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    font-family: 'Archivo Narrow', sans-serif;
+    letter-spacing: 1px;
+    border-left: 1px solid rgb(125, 125, 125);
+}
+
+.tblcontent th,
+.tblcontent td {
+    padding: 10px 8px;
+}
+
+.tblcontent  tbody td {
+   border: 1px solid rgb(110, 110, 110);
+   color: #000000;
+   font-size: 10px;
+   font-family: 'Inter', sans-serif;
+}
+
+.tblcontent tbody tr:nth-of-type(even) {
+    background-color: #7d7d7d;
+}
+
+.tblcontent tbody tr:last-of-type{
+    border-bottom: 5px solid #5e5d5d;
+}
+
+.head2{
+    width: 100px;
+}
+.head3{
+    width: 150px;
+}
+
+.head4{
+    width: 50px;
+}
+/*  */
+
+
+.btn{
+    border-radius: 3px;
+    border: 1px solid #2da4f3;
+    background-color:#a0d4f7; 
+    padding: 3px 10px;
+    font-size: 11.5px;
+    font-weight:bold;
+    font-family:  sans-serif;
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.5s;
+    position: relative;
+    overflow: hidden;
+    color: rgb(28, 97, 153);
+    text-align:center;
+}
+.btn1:hover,.btn2:hover,.btn3:hover,.btn4:hover{
+   background-color: rgba(247, 63, 8, 0.712);
+}
+
+.btnContainer{
+    margin-left: 45%;
+}
+
+/* .TOBody{
+    display: block;
+    justify-content: center;
+    justify-items: center;
+}
+
+.userReports{
+    width: 100%;
+}
+
+
+.urtThead{
+    border: 1px ridge rgb(127, 79, 238);
+    border-radius: 20px;
+}
+.urtThead>tr>th {
+    background-color: rgba(247, 63, 8, 0.712);
+    border: 2px ridge  rgb(60, 49, 87);
+    color: rgb(241, 243, 245);
+    width: 100px;
+}
+
+.urtTbody>tr>td {
+    background-color: rgba(188, 250, 230, 0.959);
+    border: 2px solid  rgb(60, 49, 87);
+    color: rgb(30, 99, 177);
+}
+.urtTbody>tr>td:hover {
+    background-color: rgb(10, 90, 182);
+    border: 2px solid  rgb(60, 49, 87);
+    color: rgb(210, 226, 245);
+    cursor: pointer;
+    
+}
+
+.btn{
+    border-radius: 3px;
+    border: 1px solid #2da4f3;
+    background-color:#a0d4f7; 
+    padding: 3px 10px;
+    font-size: 11.5px;
+    font-weight:bold;
+    font-family:  sans-serif;
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.5s;
+    position: relative;
+    overflow: hidden;
+    color: rgb(28, 97, 153);
+    text-align:center;
+}
+.btn1:hover,.btn2:hover,.btn3:hover,.btn4:hover{
+   background-color: rgba(247, 63, 8, 0.712);
+} */

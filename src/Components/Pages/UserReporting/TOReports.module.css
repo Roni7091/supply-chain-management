@@ -1,0 +1,131 @@
+
+.torContainer{
+    width: 100%;
+    height: fit-content;
+}
+
+.torForm{
+    display: block;
+    justify-content: center;
+    margin-top: 30px;
+    padding-left: 10px;
+   
+}
+
+.torFormBody{
+  
+    width: 100%;
+    display: grid;
+    grid-template-rows: 36px 60px;
+    justify-content: left;
+    text-align: left;
+}
+.torFormRow1{
+    width: 100%;
+display: grid;
+grid-template-columns: 160px 150px 160px 150px 160px 150px;
+column-gap: 10px;
+margin-top: 20px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300&display=swap');
+.fr>label{
+    font-family: 'Saira Condensed', sans-serif;
+    /* font-size: small; */
+    font-weight: 600;
+    color: black;
+    padding-left: 7px;
+}
+.torFormRow2{
+width: 100%;
+display: grid;
+grid-template-columns: 160px 150px 160px 150px 160px 150px;
+column-gap: 10px;
+}
+/* .fr>input{
+    width:150px;
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    border: 2px ridge rgba(192, 192, 192, 0.44);
+} */
+/* .fr>input:hover{
+    
+    cursor: pointer;
+    border: 2px solid white;
+} */
+
+.torInp{
+    width:150px;
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    border: 2px ridge rgba(192, 192, 192, 0.44);
+}
+
+.torSel{
+    font-family: sans-serif;
+    width:150px;
+    height:24px;
+    border-radius: 10px;
+    border: 2px ridge rgba(192, 192, 192, 0.44);
+    font-size: small;
+}
+
+.torSel option{
+    font-size: 10px;
+}
+/* .slct{
+    font-family: sans-serif;
+    width:150px;
+    height:20px;
+    border-radius: 10px;
+    border: 2px ridge rgba(192, 192, 192, 0.44);
+    font-size: small;
+} */
+/* .fr>select:hover{
+    color: white;
+    background-color: grey ;;
+    cursor: pointer;
+    border: 2px solid white;
+} */
+
+
+.searchbtn{
+    width: 80px;
+    background-color: rgba(16, 89, 184, 0.712);
+    border-radius: 10px;
+    border-style: solid;
+    border-color: azure;
+    font-size: small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border:2px solid grey;
+}
+.searchbtn:hover{
+    width: 80px;
+    background-color: rgb(16, 89, 184);
+    border-radius: 10px;
+    border-style: solid;
+    border-color: azure;
+    font-size: small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.clearbtn{
+    width: 80px;
+    margin-left: 10px;
+    background-color: rgba(247, 63, 8, 0.712);
+    border-radius: 10px;
+    border-style: solid;
+    border-color: azure;
+    font-size: small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border:2px solid grey;
+}
+.clearbtn:hover{
+    width: 80px;
+    margin-left: 10px;
+    background-color: rgb(247, 64, 8);
+    border-radius: 10px;
+    border-style: solid;
+    border-color: azure;
+    font-size: small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

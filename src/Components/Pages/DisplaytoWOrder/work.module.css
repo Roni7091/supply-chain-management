@@ -1,0 +1,110 @@
+.numeric {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl_wAqPr6COkMcidg-kZ0Od0vXw8BkHVWHuA&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.first {
+    color: #7D9D9C;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    /* display: flex; */
+    padding-left: 45%;
+   
+}
+.first:hover h4 {
+    color: #39375B;
+    font-weight: 600;
+    font-size: 35px;
+}
+.sectop {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+.sectopp {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-left: 150px;
+}
+.second {
+    margin-top: 30px;
+    color:#7D9D9C;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    /* display: flex; */
+    padding-left: 30px;
+    margin-left: 37%;
+}
+.second:hover h4 {
+    color: #39375B;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.sectopp1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+.sectopp2 {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    border: 2px rich gray;
+    height: 40px;
+    font-weight: 600;
+    background-color: #F5F5DC;
+    margin-left: 150px;
+}
+/* .sectopp2:hover p1 {
+    color: #6867AC;
+} */
+
+.sectopp3 {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;  
+    border: 2px rich gray;
+    height: 40px;
+    background-color: #F5F5DC;
+    /* color: aliceblue; */
+    color: #000;
+    
+    font-weight: 600;
+    margin-left: 150px;
+} 
+/* .sectopp3:hover p1 {
+    color: #6867AC;
+  
+}   */
+
+.back {
+    margin-top: 240px;
+    display: flex;
+    cursor: pointer;
+
+}
+
+.backbut {
+    background-color: red;
+    color: aliceblue;
+    border: 0ch;
+    cursor: pointer;
+    width: 60px;
+    height: 30px;
+    margin-left: 20px;
+}
+.backbut:hover  {
+    background-color: #6E5773;
+    font-weight: 600;
+
+}

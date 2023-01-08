@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lora:ital,wght@0,400;1,400;1,500;1,600;1,700&family=Playfair+Display:ital,wght@1,400;1,800&family=Tangerine&family=Titillium+Web:wght@300;400;700&family=Varela+Round&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+.allcards{
+    display: grid;
+    grid-template-columns: repeat(3,33%);
+    margin-left: 60px;
+    margin: 12px;
+     padding-left: 60px;
+    margin-top: 10px;
+    height: 500px;
+  
+}
+
+
+
+.maincontainer{
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+
+
+
+
+/* //back */
+
+
+
+
