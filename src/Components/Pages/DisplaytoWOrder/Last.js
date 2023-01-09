@@ -81,7 +81,7 @@ const Last = () => {
             </div>
           </div>
         </form>
-        {hualert ? <Hualert /> : null}
+        <div>{hualert ? <Hualert /> : null}</div>
       </div>
     </>
   );

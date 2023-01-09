@@ -22,7 +22,7 @@ const CardTable = () => {
   };
 
   return (
-    <div>
+    <>
       <div>
         <table className={Alerts.tblcontent}>
           <thead>
@@ -110,7 +110,7 @@ const CardTable = () => {
           {select ? <SelectFile select={select} setSelect={setSelect} /> : null}
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

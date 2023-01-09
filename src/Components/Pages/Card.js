@@ -32,10 +32,10 @@ const Card = () => {
             <li className={cd3.dataLi}>Component Repository Bulk Upload</li>
             <li className={cd3.dataLi}>CR Assignment TEST APP</li>
           </div>
-          <div className={cd3.outerDataImgCon}>
+          <div className={cd3.outerDataImgCon1}>
             <img
               className={cd3.outerDataImg}
-              src="https://i.pinimg.com/736x/02/24/60/02246047585f640d51b78c8956c188ee.jpg"
+              src="https://us.123rf.com/450wm/normaals/normaals2008/normaals200800004/normaals200800004.jpg?ver=6"
               alt=""
             />
           </div>

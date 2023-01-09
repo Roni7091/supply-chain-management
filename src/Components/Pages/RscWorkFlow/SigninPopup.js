@@ -14,7 +14,7 @@ const SigninPopup = ({ signin, setSignin }) => {
         <div className="sign-pop">
           <div className="text-focus-in">
             <div className="test1">
-              <h1 className="test1-title">Reght stage customisation</h1>
+              <h1 className="test1-title">Supply Chain Management</h1>
             </div>
             <form className="singin-pop" action="">
               <div>

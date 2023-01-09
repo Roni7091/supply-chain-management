@@ -36,10 +36,11 @@ const Card1 = () => {
 
             <li className={cd3.dataLi}>Cancel TO / Workorder</li>
           </div>
-          <div className={cd3.outerDataImgCon}>
+          <div className={cd3.outerDataImgCon2}>
             <img
               className={cd3.outerDataImg}
-              src="https://i.pinimg.com/736x/02/24/60/02246047585f640d51b78c8956c188ee.jpg"
+              src="https://us.123rf.com/450wm/rashadashurov/rashadashurov1911/rashadashurov191100067/rashadashurov191100067.jpg?ver=6 
+              "
               alt=""
             />
           </div>

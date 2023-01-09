@@ -25,10 +25,10 @@ const Card2 = () => {
             <li className={cd3.dataLi}>Error Configuration</li>
             <li className={cd3.dataLi}>Qlik Reporting</li>
           </div>
-          <div className={cd3.outerDataImgCon}>
+          <div className={cd3.outerDataImgCon3}>
             <img
               className={cd3.outerDataImg}
-              src="https://i.pinimg.com/736x/02/24/60/02246047585f640d51b78c8956c188ee.jpg"
+              src="https://img.freepik.com/free-vector/setup-concept-illustration_114360-382.jpg?w=2000"
               alt=""
             />
           </div>

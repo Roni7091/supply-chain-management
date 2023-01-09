@@ -96,13 +96,14 @@ li {
 
 .menu-link ul li a {
   text-transform: capitalize;
-  color: rgba(3, 3, 3, 0.8);
+  color: rgba(255, 255, 255, 0.8);
   transition: 0.5s;
   font-size: 14px;
+  font-weight: 600;
 }
 .menu-link ul li:hover > a {
   transform-origin: left;
-  color: rgba(0, 0, 3, 1);
+  color: rgb(253, 253, 253);
   text-decoration: underline;
   transition: 0.5s;
 }
@@ -128,6 +129,26 @@ li {
   color: #e8e8e8;
   font-size: 20px;
   
+}
+
+.help-center{
+  position: absolute;
+  right: 45px;
+}
+
+.username-navbar{
+  margin-top: -19px;
+ 
+}
+
+.usernamehead{
+  background-color: #f500001f;
+  margin-left: 11px;
+  border-radius: 20px;
+  height: 24px;
+  font-size: 14px;
+  border: 2px solid rgba(255, 255, 255, 0.781);
+  padding-right: 10px;
 }
 
 /* hero section   */
