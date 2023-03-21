@@ -1,10 +1,195 @@
-/* .cont{
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+
+
+.body{
+    height: 100%;
     width: 100%;
-    height:100vh;
-    padding: 30px;
-    padding-bottom: 20px;
-    margin-top: -80px;
-} */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .card{
+    border-radius: 25px;
+    /* background-color: #FFF; */
+    /* background-color: rgb(207, 137, 136); */
+    background-color: #ffffff;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+    border: none;
+    width: 300px;
+    height: 430px;
+  }
+  .imagecontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+  }
+  .cardcontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 34px;
+  }
+
+  .cardcontent h2{
+    font-family: 'Source Serif Pro', serif;
+    font-weight: bold;
+    color: rgb(68, 68, 68);
+
+  }
+  .imagecontent{
+    position: relative;
+    row-gap: 5px;
+    padding: 25px 0;
+  }
+  .overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 114%;
+    width: 100%;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSNk6LyRMf3faWZPpXMACOPA7rAw6gBdAP9A&usqp=CAU);
+    border-radius: 25px 25px 0 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .overlay::before,
+  .overlay::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 40px;
+    background-color: skyblue;
+   
+    
+  }
+
+  /* need changes in ::shadow --------------------------------------------------------------------->>>>>*/
+  .overlay::after{
+    border-radius: 0 25px 0 0;
+    /* background-color: #FFF; */
+    /* background-color: rgb(207, 137, 136); */
+    background-color: #fdfdfd;
+
+
+    
+  }
+
+  
+  .overlay1{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 114%;
+    width: 100%;
+    background-image: url(https://corpanix.com/wp-content/uploads/2020/04/35224-1024x730.jpg);
+    border-radius: 25px 25px 0 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .overlay1::before,
+  .overlay1::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 40px;
+    background-color: skyblue;
+  }
+  .overlay1::after{
+    border-radius: 0 25px 0 0;
+    /* background-color: #FFF; */
+    background-color: #fcfcfc;
+  }
+  .overlay2{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 114%;
+    width: 100%;
+    background-image: url(https://img.freepik.com/free-vector/hand-drawn-data-driven-illustration_23-2149676073.jpg?w=2000);
+    border-radius: 25px 25px 0 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .overlay2::before,
+  .overlay2::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 40px;
+    background-color: skyblue;
+  }
+  .overlay2::after{
+    border-radius: 0 25px 0 0;
+    /* background-color: #FFF; */
+    background-color: #ffffff;
+  }
+  .cardimage{
+    position: relative;
+    height: 100px;
+    width: 100px;
+     border-radius: 50%; 
+    background: #FFF;
+    padding: 3px;
+  }
+  .cardimage{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    /* border: 4px solid #f45e4062; */
+    border: 4px solid #1104689d;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+ .list{
+     padding-top: 7px;
+     text-align: left;
+     cursor: pointer;
+     font-family: 'Kanit', sans-serif;
+     font-size: 13px;
+     color: rgb(7, 7, 7);
+     list-style:disc;
+     
+     
+
+ }
+ .list:hover {
+    background-color: aliceblue;
+    color: black;
+    font-weight: bold;
+ }
+  /* .item{
+    padding-top: 12px;
+    text-align: left;
+    cursor: pointer;
+    font-family: 'Kanit', sans-serif;
+     font-size: 12px;
+    font-weight: bold; 
+ }  */
+ .comp{
+    
+    height: 180px;
+    width: 95%;
+    margin-left: 10px;
+    margin-top: 20px;
+    
+    text-align: left;
+ }
+
+
+
+/* 
 
 .hpcard3{
     height: 380px;
@@ -93,4 +278,4 @@
     width: fit-content;
 }
 
-
+ */

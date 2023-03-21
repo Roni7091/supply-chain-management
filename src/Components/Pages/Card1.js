@@ -1,56 +1,100 @@
 import React from "react";
-import cd3 from "./card3.module.css";
-import { AiOutlineDropbox } from "react-icons/ai";
+import cards from "./card3.module.css";
+import { AiFillDropboxCircle } from "react-icons/ai";
 import { NavLink } from "react-router-dom";
 
-const Card1 = () => {
+const Card = () => {
   return (
-    <>
-      <div className={cd3.cont}>
-        <div className={cd3.outerCircle}>
-          <AiOutlineDropbox
-            size={36}
-            style={{ marginTop: "12px", color: "white", marginLeft: "12px" }}
-          />
+    <div className={cards.body}>
+      <div className={cards.card}>
+        <div className={cards.imagecontent}>
+          <span className={cards.overlay1}></span>
+
+          <div className={cards.cardimage}>
+            <AiFillDropboxCircle size={87} />
+          </div>
         </div>
-        <div className={cd3.hpcard3}>
-          <div className={cd3.hpTitle2}>
-            <h5>Product Transformation</h5>
-          </div>
-          <div className={cd3.hpdata}>
-            <NavLink to={"/huticket"}>
-              <li className={cd3.dataLi}>Work Order Execution</li>
-            </NavLink>
 
-            <NavLink to={"/userrptg"}>
-              <li className={cd3.dataLi}>User Reporting</li>
-            </NavLink>
-
-            <NavLink to={"/dworder"}>
-              <li className={cd3.dataLi}>Display TO / Work Order</li>
-            </NavLink>
-
-            <NavLink to={"/task2"}>
-              <li className={cd3.dataLi}>Create Transformation Order</li>
-            </NavLink>
-
-            <li className={cd3.dataLi}>Cancel TO / Workorder</li>
-          </div>
-          <div className={cd3.outerDataImgCon2}>
-            <img
-              className={cd3.outerDataImg}
-              src="https://us.123rf.com/450wm/rashadashurov/rashadashurov1911/rashadashurov191100067/rashadashurov191100067.jpg?ver=6 
-              "
-              alt=""
-            />
+        <div className={cards.cardcontent}>
+          <h2>Product Transformation </h2>
+          <div className={cards.comp}>
+            <ul>
+              <NavLink to={"/huticket"}>
+                <li className={cards.list}>Work Order Execution</li>
+              </NavLink>
+              <NavLink to={"/userrptg"}>
+                <li className={cards.list}>User Reporting</li>
+              </NavLink>
+              <NavLink to={"/dworder"}>
+                <li className={cards.list}>Display TO / Work Order </li>
+              </NavLink>
+              <NavLink to={"/task2"}>
+                <li className={cards.list}>Create Transformation Order</li>
+              </NavLink>
+              <li className={cards.list}>Cancel TO / Workorder</li>
+            </ul>
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
-export default Card1;
+export default Card;
+
+// import React from "react";
+// import cd3 from "./card3.module.css";
+// import { AiOutlineDropbox } from "react-icons/ai";
+// import { NavLink } from "react-router-dom";
+
+// const Card1 = () => {
+//   return (
+//     <>
+//       <div className={cd3.cont}>
+//         <div className={cd3.outerCircle}>
+//           <AiOutlineDropbox
+//             size={36}
+//             style={{ marginTop: "12px", color: "white", marginLeft: "12px" }}
+//           />
+//         </div>
+//         <div className={cd3.hpcard3}>
+//           <div className={cd3.hpTitle2}>
+//             <h5>Product Transformation</h5>
+//           </div>
+//           <div className={cd3.hpdata}>
+//             <NavLink to={"/huticket"}>
+//               <li className={cd3.dataLi}>Work Order Execution</li>
+//             </NavLink>
+
+//             <NavLink to={"/userrptg"}>
+//               <li className={cd3.dataLi}>User Reporting</li>
+//             </NavLink>
+
+//             <NavLink to={"/dworder"}>
+//               <li className={cd3.dataLi}>Display TO / Work Order</li>
+//             </NavLink>
+
+//             <NavLink to={"/task2"}>
+//               <li className={cd3.dataLi}>Create Transformation Order</li>
+//             </NavLink>
+
+//             <li className={cd3.dataLi}>Cancel TO / Workorder</li>
+//           </div>
+//           <div className={cd3.outerDataImgCon2}>
+//             <img
+//               className={cd3.outerDataImg}
+//               src="https://us.123rf.com/450wm/rashadashurov/rashadashurov1911/rashadashurov191100067/rashadashurov191100067.jpg?ver=6
+//               "
+//               alt=""
+//             />
+//           </div>
+//         </div>
+//       </div>
+//     </>
+//   );
+// };
+
+// export default Card1;
 
 // import React from "react";
 // import Card3css from "./card.module.css";
